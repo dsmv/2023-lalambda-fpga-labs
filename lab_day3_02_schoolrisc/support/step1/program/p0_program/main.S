@@ -1,6 +1,6 @@
 # RISC-V simple sprite move program
 #
-# Dmitry Smekhov, 2023
+# Dmitry Smekhov, 2021
 #
  
             .text
