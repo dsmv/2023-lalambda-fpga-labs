@@ -1,0 +1,1 @@
+qhsim  tb_opt  +test_id=1 -classdebug -do "wave.tcl" 
