@@ -11,7 +11,7 @@ set_global_assignment -name PROJECT_OUTPUT_DIRECTORY    output
 set_global_assignment   -name TOP_LEVEL_ENTITY          top_board
 set_global_assignment   -name SEARCH_PATH               ../common
 set_global_assignment   -name SEARCH_PATH               ../../src
-set_global_assignment   -name SEARCH_PATH               ../../src/school_risk
+set_global_assignment   -name SEARCH_PATH               ../../src/schoolriscv
 set_global_assignment   -name VERILOG_FILE              top_board.sv
 set_global_assignment   -name SDC_FILE                  top.sdc
 
