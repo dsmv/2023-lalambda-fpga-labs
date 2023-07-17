@@ -1,3 +1,4 @@
+cp -R boards/* ../boards
 cp -R step1/src/* ../src
 cp -R step1/tb/*  ../tb
 cp -R step1/program/p0_program/main.S     ../program/p0_program
