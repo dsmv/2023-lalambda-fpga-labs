@@ -1,0 +1,10 @@
+.Xil
+xsim.dir
+transcript
+*.wlf
+*.vstf
+*.wdb
+*.pb
+*.joe
+
+

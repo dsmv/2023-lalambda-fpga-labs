@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# xsim v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Nov  6 20:30:32 2023
+# Process ID: 10351
+# Current directory: /mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0
+# Command line: xsim -source {xsim.dir/tb_behav/xsim_script.tcl}
+# Log file: /mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/xsim.log
+# Journal file: /mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/xsim.jou
+# Running On: dell-nb, OS: Linux, CPU Frequency: 3381.811 MHz, CPU Physical cores: 4, Host memory: 33462 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/tb_behav/xsim_script.tcl
+open_wave_config ./top.wcg
+open_wave_config ./sim_inp441.wcfg
+create_wave_config
+save_wave_config {/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/top.wcfg}
+add_files -fileset sim_1 -norecurse /mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/top.wcfg
+set_property xsim.view /mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/top.wcfg [get_filesets sim_1]
+create_wave_config
+save_wave_config {/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/sim_in441.wcfg}
+run all
+save_wave_config {/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/sim_in441.wcfg}
+restart
+source /mh/tools/Xilinx/relaunch_sim.tcl
+open_wave_config ./top.wcg
+open_wave_config ./sim_inp441.wcfg
+run all
+source /mh/tools/Xilinx/relaunch_sim.tcl
+open_wave_config ./top.wcfg
+open_wave_config ./sim_inp441.wcfg
+run all
+source /mh/tools/Xilinx/relaunch_sim.tcl
+open_wave_config ./top.wcfg
+open_wave_config ./sim_in441.wcfg
+run all
+source /mh/tools/Xilinx/relaunch_sim.tcl
+save_wave_config {/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/sim_in441.wcfg}
+source /mh/tools/Xilinx/relaunch_sim.tcl
+open_wave_config ./top.wcfg
+open_wave_config ./sim_in441.wcfg
+run all
+source /mh/tools/Xilinx/relaunch_sim.tcl
+open_wave_config ./top.wcfg
+open_wave_config ./sim_in441.wcfg
+run all
+source /mh/tools/Xilinx/relaunch_sim.tcl
+save_wave_config {/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/top.wcfg}
+source /mh/tools/Xilinx/relaunch_sim.tcl
+open_wave_config ./top.wcfg
+open_wave_config ./sim_in441.wcfg
+run all
+source /mh/tools/Xilinx/relaunch_sim.tcl
+open_wave_config ./top.wcfg
+open_wave_config ./sim_in441.wcfg
+run all
+source /mh/tools/Xilinx/relaunch_sim.tcl
+open_wave_config ./top.wcfg
+open_wave_config ./sim_in441.wcfg
+run all

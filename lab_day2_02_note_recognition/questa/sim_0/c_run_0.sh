@@ -1,0 +1,1 @@
+vsim -c tb_opt -do "run 200 ms"

@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src/inn441_mic_spi_receiver.sv" into library work
+INFO: [VRFC 10-311] analyzing module inn441_mic_spi_receiver
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src/seven_segment_4_digits.sv" into library work
+INFO: [VRFC 10-311] analyzing module seven_segment_4_digits
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src/top.sv" into library work
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src_tb/sim_inn441.sv" into library work
+INFO: [VRFC 10-311] analyzing module sim_inn441
+WARNING: [VRFC 10-3467] initial value of parameter 's_freq_100' is omitted [/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src_tb/sim_inn441.sv:7]
+WARNING: [VRFC 10-3467] initial value of parameter 's_time_ms' is omitted [/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src_tb/sim_inn441.sv:8]
+WARNING: [VRFC 10-3467] initial value of parameter 's_ampl' is omitted [/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src_tb/sim_inn441.sv:9]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src_tb/tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="250.000070001 ms"></ZoomEndTime>
+      <Cursor1Time time="246.415390000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="136"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="65" />
+   <wvobject type="logic" fp_name="/tb/i_top/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/key_sw">
+      <obj_property name="ElementShortName">key_sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">key_sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/led">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/abcdefgh">
+      <obj_property name="ElementShortName">abcdefgh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">abcdefgh[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/digit">
+      <obj_property name="ElementShortName">digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/buzzer">
+      <obj_property name="ElementShortName">buzzer</obj_property>
+      <obj_property name="ObjectShortName">buzzer</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/hsync">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/vsync">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/rgb">
+      <obj_property name="ElementShortName">rgb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/gpio">
+      <obj_property name="ElementShortName">gpio[13:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/value">
+      <obj_property name="ElementShortName">value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/prev_value">
+      <obj_property name="ElementShortName">prev_value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_value[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/counter">
+      <obj_property name="ElementShortName">counter[19:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/distance">
+      <obj_property name="ElementShortName">distance[19:0]</obj_property>
+      <obj_property name="ObjectShortName">distance[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_C">
+      <obj_property name="ElementShortName">freq_100_C[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_C[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_Cs">
+      <obj_property name="ElementShortName">freq_100_Cs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_Cs[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_D">
+      <obj_property name="ElementShortName">freq_100_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_Ds">
+      <obj_property name="ElementShortName">freq_100_Ds[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_Ds[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_E">
+      <obj_property name="ElementShortName">freq_100_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_F">
+      <obj_property name="ElementShortName">freq_100_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_F[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_Fs">
+      <obj_property name="ElementShortName">freq_100_Fs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_Fs[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_G">
+      <obj_property name="ElementShortName">freq_100_G[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_G[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_Gs">
+      <obj_property name="ElementShortName">freq_100_Gs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_Gs[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_A">
+      <obj_property name="ElementShortName">freq_100_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_As">
+      <obj_property name="ElementShortName">freq_100_As[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_As[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/freq_100_B">
+      <obj_property name="ElementShortName">freq_100_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_100_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_C">
+      <obj_property name="ElementShortName">check_C</obj_property>
+      <obj_property name="ObjectShortName">check_C</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_Cs">
+      <obj_property name="ElementShortName">check_Cs</obj_property>
+      <obj_property name="ObjectShortName">check_Cs</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_D">
+      <obj_property name="ElementShortName">check_D</obj_property>
+      <obj_property name="ObjectShortName">check_D</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_Ds">
+      <obj_property name="ElementShortName">check_Ds</obj_property>
+      <obj_property name="ObjectShortName">check_Ds</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_E">
+      <obj_property name="ElementShortName">check_E</obj_property>
+      <obj_property name="ObjectShortName">check_E</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_F">
+      <obj_property name="ElementShortName">check_F</obj_property>
+      <obj_property name="ObjectShortName">check_F</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_Fs">
+      <obj_property name="ElementShortName">check_Fs</obj_property>
+      <obj_property name="ObjectShortName">check_Fs</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_G">
+      <obj_property name="ElementShortName">check_G</obj_property>
+      <obj_property name="ObjectShortName">check_G</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_Gs">
+      <obj_property name="ElementShortName">check_Gs</obj_property>
+      <obj_property name="ObjectShortName">check_Gs</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_A">
+      <obj_property name="ElementShortName">check_A</obj_property>
+      <obj_property name="ObjectShortName">check_A</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_As">
+      <obj_property name="ElementShortName">check_As</obj_property>
+      <obj_property name="ObjectShortName">check_As</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/i_top/check_B">
+      <obj_property name="ElementShortName">check_B</obj_property>
+      <obj_property name="ObjectShortName">check_B</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/note">
+      <obj_property name="ElementShortName">note[11:0]</obj_property>
+      <obj_property name="ObjectShortName">note[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/d_note">
+      <obj_property name="ElementShortName">d_note[11:0]</obj_property>
+      <obj_property name="ObjectShortName">d_note[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/t_cnt">
+      <obj_property name="ElementShortName">t_cnt[17:0]</obj_property>
+      <obj_property name="ObjectShortName">t_cnt[17:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/t_note">
+      <obj_property name="ElementShortName">t_note[11:0]</obj_property>
+      <obj_property name="ObjectShortName">t_note[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/clk_mhz">
+      <obj_property name="ElementShortName">clk_mhz[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_mhz[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/threshold">
+      <obj_property name="ElementShortName">threshold[15:0]</obj_property>
+      <obj_property name="ObjectShortName">threshold[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/w_note">
+      <obj_property name="ElementShortName">w_note[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_note[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/no_note">
+      <obj_property name="ElementShortName">no_note[11:0]</obj_property>
+      <obj_property name="ObjectShortName">no_note[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/C">
+      <obj_property name="ElementShortName">C[11:0]</obj_property>
+      <obj_property name="ObjectShortName">C[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Cs">
+      <obj_property name="ElementShortName">Cs[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Cs[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/D">
+      <obj_property name="ElementShortName">D[11:0]</obj_property>
+      <obj_property name="ObjectShortName">D[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Ds">
+      <obj_property name="ElementShortName">Ds[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Ds[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/E">
+      <obj_property name="ElementShortName">E[11:0]</obj_property>
+      <obj_property name="ObjectShortName">E[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/F">
+      <obj_property name="ElementShortName">F[11:0]</obj_property>
+      <obj_property name="ObjectShortName">F[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Fs">
+      <obj_property name="ElementShortName">Fs[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Fs[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/G">
+      <obj_property name="ElementShortName">G[11:0]</obj_property>
+      <obj_property name="ObjectShortName">G[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Gs">
+      <obj_property name="ElementShortName">Gs[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Gs[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/A">
+      <obj_property name="ElementShortName">A[11:0]</obj_property>
+      <obj_property name="ObjectShortName">A[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/As">
+      <obj_property name="ElementShortName">As[11:0]</obj_property>
+      <obj_property name="ObjectShortName">As[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/B">
+      <obj_property name="ElementShortName">B[11:0]</obj_property>
+      <obj_property name="ObjectShortName">B[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Df">
+      <obj_property name="ElementShortName">Df[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Df[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Ef">
+      <obj_property name="ElementShortName">Ef[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Ef[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Gf">
+      <obj_property name="ElementShortName">Gf[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Gf[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Af">
+      <obj_property name="ElementShortName">Af[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Af[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/i_top/Bf">
+      <obj_property name="ElementShortName">Bf[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Bf[11:0]</obj_property>
+   </wvobject>
+</wave_config>
