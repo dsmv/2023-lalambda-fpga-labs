@@ -59,3 +59,5 @@ source /mh/tools/Xilinx/relaunch_sim.tcl
 open_wave_config ./top.wcfg
 open_wave_config ./sim_in441.wcfg
 run all
+save_wave_config {/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/sim_in441.wcfg}
+close_sim

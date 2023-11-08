@@ -26624,3 +26624,9 @@ freq100= 46616 curr_distance= 143359 check_freq=00000
 freq100= 49388 curr_distance= 143359 check_freq=00000 
 $finish called at time : 250000070 ns : File "/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/src_tb/tb.sv" Line 99
 run: Time (s): cpu = 00:01:53 ; elapsed = 00:01:26 . Memory (MB): peak = 11164.855 ; gain = 0.000 ; free physical = 3238 ; free virtual = 22304
+save_wave_config {/mh/xprj/chip/2023-lalambda-fpga-labs/lab_day2_02_note_recognition/vivado/sim_0/sim_in441.wcfg}
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 125048 KB (Peak: 182320 KB), Simulation CPU Usage: 26820 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  7 00:30:31 2023...
