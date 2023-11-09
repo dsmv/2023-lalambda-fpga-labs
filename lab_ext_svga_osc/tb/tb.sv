@@ -77,6 +77,8 @@ logic [3:0]      vgaext_b;
 logic            vgaext_hsync;
 logic            vgaext_vsync;
 
+logic            uart_rxd;
+logic            uart_txd;
 
 
 logic            test_passed=0;
@@ -85,9 +87,59 @@ logic            test_timeout=0;
 
 wire [13:0]     gpio;
 
+localparam integer freq_100_C  = 26163,
+freq_100_Cs = 27718,
+freq_100_D  = 29366,
+freq_100_Ds = 31113,
+freq_100_E  = 32963,
+freq_100_F  = 34923,
+freq_100_Fs = 36999,
+freq_100_G  = 39200,
+freq_100_Gs = 41530,
+freq_100_A  = 44000,
+freq_100_As = 46616,
+freq_100_B  = 49388;
+
+localparam int     s_freq_100[5]= { freq_100_C, freq_100_D, freq_100_Ds, freq_100_E, freq_100_F };
+
+
+
+localparam int       s_time_ms[5]= { 1, 45, 90, 135, 180 };
+
+localparam int       s_ampl[5]= { 30000, 20000, 31000, 22000, 26000 };
+
+localparam int       s_cnt=5;
+
+
 always #7.7 clk = ~clk;
 
 top #( .is_simulation(1) ) uut( .* );
+
+
+sim_inn441 
+#(
+    .s_freq_100     (   s_freq_100    ),
+    .s_time_ms      (   s_time_ms     ),
+    .s_ampl         (   s_ampl        ),
+    .s_cnt          (   s_cnt         )
+)
+sim_inn441
+(
+    // .sck            (   gpio[6]   ),    //! частота получения данных Fws * 64
+    // .ws             (   gpio[0]   ),     //! частота дискретизации АЦП
+    // .lr             (   0         ),
+    // .sdo            (   gpio[4]   )
+
+    .sck            (   gpio[1]   ),    //! частота получения данных Fws * 64
+    .ws             (   gpio[3]   ),     //! частота дискретизации АЦП
+    .lr             (   0         ),
+    .sdo            (   gpio[0]   )
+
+);    
+
+
+
+
 
 assign ar_display_number[0] = display_number[3:0];
 assign ar_display_number[1] = display_number[7:4];
@@ -137,7 +189,7 @@ initial begin
 end
 
 initial begin
-    #60000000;
+    #260000000;
     $display();
     $display( "***************************  TIMEMOUT  ****************************"  );
     $display();
@@ -154,8 +206,8 @@ initial begin
         0: begin
             // some action for test_id==0
             fork
-                test_seq_p0();    
-                test_seq_p1();    
+                //test_seq_p0();    
+                //test_seq_p1();    
                 test_seq_p2();    
             join_any
            

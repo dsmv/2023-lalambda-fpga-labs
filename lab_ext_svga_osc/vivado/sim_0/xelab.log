@@ -1,0 +1,29 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2021.2/bin/unwrapped/lnx64.o/xelab --incr -O0 --relax --mt 8 -L xil_defaultlib --snapshot tb_behav tb -debug all 
+Using 8 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 12 for port 'x' [/mh/xprj/chip/2023-lalambda-fpga-labs/lab_ext_svga_osc/src/top.sv:303]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 11 for port 'y' [/mh/xprj/chip/2023-lalambda-fpga-labs/lab_ext_svga_osc/src/top.sv:304]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clk_enable' [/mh/xprj/chip/2023-lalambda-fpga-labs/lab_ext_svga_osc/src/uart_mic.sv:57]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'lr' [/mh/xprj/chip/2023-lalambda-fpga-labs/lab_ext_svga_osc/tb/tb.sv:135]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.vga(N_MIXER_PIPE_STAGES=2,HPOS_W...
+Compiling module work.text_rom
+Compiling module work.video_memory(INIT_VALUE=8'b01000...
+Compiling module work.inmp441_mic_i2s_receiver
+Compiling module work.osc_mic(is_simulation=1)
+Compiling module work.serial_rx
+Compiling module work.serial_tx
+Compiling module work.serial_top
+Compiling module work.fifo_simple(FIFO_DEPTH=2048,FIFO...
+Compiling module work.uart_mic(is_simulation=1)
+Compiling module work.top(is_simulation=1)
+Compiling module work.sim_inn441(s_freq_100='{26163,29...
+Compiling module work.tb
+Built simulation snapshot tb_behav

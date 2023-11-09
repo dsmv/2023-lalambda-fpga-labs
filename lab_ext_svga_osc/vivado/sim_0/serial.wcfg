@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,390.493633 us"></ZoomStartTime>
+      <ZoomEndTime time="1,470.193634 us"></ZoomEndTime>
+      <Cursor1Time time="1,456.910300 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wave_markers>
+      <marker label="" time="1200992100" />
+      <marker label="" time="808014900" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/tb/uut/serial/cks_mode">
+      <obj_property name="ElementShortName">cks_mode</obj_property>
+      <obj_property name="ObjectShortName">cks_mode</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/clkp">
+      <obj_property name="ElementShortName">clkp</obj_property>
+      <obj_property name="ObjectShortName">clkp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/ld_wdata">
+      <obj_property name="ElementShortName">ld_wdata</obj_property>
+      <obj_property name="ObjectShortName">ld_wdata</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/rd_rdata">
+      <obj_property name="ElementShortName">rd_rdata</obj_property>
+      <obj_property name="ObjectShortName">rd_rdata</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/s_reset">
+      <obj_property name="ElementShortName">s_reset</obj_property>
+      <obj_property name="ObjectShortName">s_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/ser_rxd">
+      <obj_property name="ElementShortName">ser_rxd</obj_property>
+      <obj_property name="ObjectShortName">ser_rxd</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/tx_wdata">
+      <obj_property name="ElementShortName">tx_wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/div_rate">
+      <obj_property name="ElementShortName">div_rate[11:0]</obj_property>
+      <obj_property name="ObjectShortName">div_rate[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/auto_trig">
+      <obj_property name="ElementShortName">auto_trig</obj_property>
+      <obj_property name="ObjectShortName">auto_trig</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/rx_run">
+      <obj_property name="ElementShortName">rx_run</obj_property>
+      <obj_property name="ObjectShortName">rx_run</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/rx_sync">
+      <obj_property name="ElementShortName">rx_sync</obj_property>
+      <obj_property name="ObjectShortName">rx_sync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/ser_txd">
+      <obj_property name="ElementShortName">ser_txd</obj_property>
+      <obj_property name="ObjectShortName">ser_txd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/tx_run">
+      <obj_property name="ElementShortName">tx_run</obj_property>
+      <obj_property name="ObjectShortName">tx_run</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/tx_sync">
+      <obj_property name="ElementShortName">tx_sync</obj_property>
+      <obj_property name="ObjectShortName">tx_sync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/bufr_done">
+      <obj_property name="ElementShortName">bufr_done</obj_property>
+      <obj_property name="ObjectShortName">bufr_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/bufr_empty">
+      <obj_property name="ElementShortName">bufr_empty</obj_property>
+      <obj_property name="ObjectShortName">bufr_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/bufr_full">
+      <obj_property name="ElementShortName">bufr_full</obj_property>
+      <obj_property name="ObjectShortName">bufr_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/bufr_ovr">
+      <obj_property name="ElementShortName">bufr_ovr</obj_property>
+      <obj_property name="ObjectShortName">bufr_ovr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/rx_rdata">
+      <obj_property name="ElementShortName">rx_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/ser_clk">
+      <obj_property name="ElementShortName">ser_clk</obj_property>
+      <obj_property name="ObjectShortName">ser_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/ser_divpls">
+      <obj_property name="ElementShortName">ser_divpls</obj_property>
+      <obj_property name="ObjectShortName">ser_divpls</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/ser_divcnt">
+      <obj_property name="ElementShortName">ser_divcnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ser_divcnt[11:0]</obj_property>
+   </wvobject>
+</wave_config>

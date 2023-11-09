@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="7.381367301 ms"></ZoomEndTime>
+      <Cursor1Time time="3.713995900 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/reset_p">
+      <obj_property name="ElementShortName">reset_p</obj_property>
+      <obj_property name="ObjectShortName">reset_p</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/data">
+      <obj_property name="ElementShortName">data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data[23:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-30000.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">30000.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/data_we">
+      <obj_property name="ElementShortName">data_we</obj_property>
+      <obj_property name="ObjectShortName">data_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/threshold_low">
+      <obj_property name="ElementShortName">threshold_low[23:0]</obj_property>
+      <obj_property name="ObjectShortName">threshold_low[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/threshold_high">
+      <obj_property name="ElementShortName">threshold_high[23:0]</obj_property>
+      <obj_property name="ObjectShortName">threshold_high[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/uart_empty">
+      <obj_property name="ElementShortName">uart_empty</obj_property>
+      <obj_property name="ObjectShortName">uart_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/uart_full">
+      <obj_property name="ElementShortName">uart_full</obj_property>
+      <obj_property name="ObjectShortName">uart_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/uart_tx_data_we">
+      <obj_property name="ElementShortName">uart_tx_data_we</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_data_we</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/uart_tx_data">
+      <obj_property name="ElementShortName">uart_tx_data</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/stp">
+      <obj_property name="ElementShortName">stp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stp[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/index_wr">
+      <obj_property name="ElementShortName">index_wr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">index_wr[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/n_stp">
+      <obj_property name="ElementShortName">n_stp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n_stp[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/n_index_wr">
+      <obj_property name="ElementShortName">n_index_wr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">n_index_wr[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/n_vsync_cnt">
+      <obj_property name="ElementShortName">n_vsync_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n_vsync_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/rstp">
+      <obj_property name="ElementShortName">rstp</obj_property>
+      <obj_property name="ObjectShortName">rstp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/fifo_rstp">
+      <obj_property name="ElementShortName">fifo_rstp</obj_property>
+      <obj_property name="ObjectShortName">fifo_rstp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/fifo_we">
+      <obj_property name="ElementShortName">fifo_we</obj_property>
+      <obj_property name="ObjectShortName">fifo_we</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/fifo_rd">
+      <obj_property name="ElementShortName">fifo_rd</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/fifo_data_w">
+      <obj_property name="ElementShortName">fifo_data_w[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_data_w[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/fifo_data_r">
+      <obj_property name="ElementShortName">fifo_data_r[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_data_r[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/fifo_empty">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/fifo_full">
+      <obj_property name="ElementShortName">fifo_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/rd_cnt">
+      <obj_property name="ElementShortName">rd_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_cnt[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/start_wr">
+      <obj_property name="ElementShortName">start_wr</obj_property>
+      <obj_property name="ObjectShortName">start_wr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/data_z">
+      <obj_property name="ElementShortName">data_z[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data_z[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/uart_mic/data_we_z">
+      <obj_property name="ElementShortName">data_we_z</obj_property>
+      <obj_property name="ObjectShortName">data_we_z</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/is_simulation">
+      <obj_property name="ElementShortName">is_simulation[31:0]</obj_property>
+      <obj_property name="ObjectShortName">is_simulation[31:0]</obj_property>
+   </wvobject>
+</wave_config>

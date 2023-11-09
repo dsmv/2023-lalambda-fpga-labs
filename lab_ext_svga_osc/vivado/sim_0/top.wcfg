@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="297.184253685 ms"></ZoomEndTime>
+      <Cursor1Time time="246.415390000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wvobject type="logic" fp_name="/tb/uut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/reset_p">
+      <obj_property name="ElementShortName">reset_p</obj_property>
+      <obj_property name="ObjectShortName">reset_p</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/key_sw_p">
+      <obj_property name="ElementShortName">key_sw_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">key_sw_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/display_number">
+      <obj_property name="ElementShortName">display_number[15:0]</obj_property>
+      <obj_property name="ObjectShortName">display_number[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/led_p">
+      <obj_property name="ElementShortName">led_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/hsync">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/vsync">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/rgb">
+      <obj_property name="ElementShortName">rgb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/vgaext_r">
+      <obj_property name="ElementShortName">vgaext_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaext_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/vgaext_g">
+      <obj_property name="ElementShortName">vgaext_g[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaext_g[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/vgaext_b">
+      <obj_property name="ElementShortName">vgaext_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaext_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/vgaext_hsync">
+      <obj_property name="ElementShortName">vgaext_hsync</obj_property>
+      <obj_property name="ObjectShortName">vgaext_hsync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/vgaext_vsync">
+      <obj_property name="ElementShortName">vgaext_vsync</obj_property>
+      <obj_property name="ObjectShortName">vgaext_vsync</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/gpio">
+      <obj_property name="ElementShortName">gpio[13:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/rstp">
+      <obj_property name="ElementShortName">rstp</obj_property>
+      <obj_property name="ObjectShortName">rstp</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/key_sw_p_z1">
+      <obj_property name="ElementShortName">key_sw_p_z1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">key_sw_p_z1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/key_sw_p_z2">
+      <obj_property name="ElementShortName">key_sw_p_z2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">key_sw_p_z2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/osc_vga_r">
+      <obj_property name="ElementShortName">osc_vga_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">osc_vga_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/osc_vga_g">
+      <obj_property name="ElementShortName">osc_vga_g[3:0]</obj_property>
+      <obj_property name="ObjectShortName">osc_vga_g[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/osc_vga_b">
+      <obj_property name="ElementShortName">osc_vga_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">osc_vga_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/osc_state">
+      <obj_property name="ElementShortName">osc_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">osc_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/display_on">
+      <obj_property name="ElementShortName">display_on</obj_property>
+      <obj_property name="ObjectShortName">display_on</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/color">
+      <obj_property name="ElementShortName">color[11:0]</obj_property>
+      <obj_property name="ObjectShortName">color[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/color_q">
+      <obj_property name="ElementShortName">color_q[11:0]</obj_property>
+      <obj_property name="ObjectShortName">color_q[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/pixel_x">
+      <obj_property name="ElementShortName">pixel_x[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_x[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/pixel_y">
+      <obj_property name="ElementShortName">pixel_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_y[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/pixel_x_q">
+      <obj_property name="ElementShortName">pixel_x_q[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_x_q[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/pixel_x_q2">
+      <obj_property name="ElementShortName">pixel_x_q2[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_x_q2[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/video_r_addr">
+      <obj_property name="ElementShortName">video_r_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">video_r_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/video_r_data">
+      <obj_property name="ElementShortName">video_r_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">video_r_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/video_w_addr">
+      <obj_property name="ElementShortName">video_w_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">video_w_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/video_w_data">
+      <obj_property name="ElementShortName">video_w_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">video_w_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/video_w_valid">
+      <obj_property name="ElementShortName">video_w_valid</obj_property>
+      <obj_property name="ObjectShortName">video_w_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/video_reset_done">
+      <obj_property name="ElementShortName">video_reset_done</obj_property>
+      <obj_property name="ObjectShortName">video_reset_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/index">
+      <obj_property name="ElementShortName">index[7:0]</obj_property>
+      <obj_property name="ObjectShortName">index[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/sub_index">
+      <obj_property name="ElementShortName">sub_index[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_index[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/bitmap_out">
+      <obj_property name="ElementShortName">bitmap_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bitmap_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/stp">
+      <obj_property name="ElementShortName">stp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stp[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/str_data">
+      <obj_property name="ElementShortName">str_data[15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">str_data[15:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/value_24">
+      <obj_property name="ElementShortName">value_24[23:0]</obj_property>
+      <obj_property name="ObjectShortName">value_24[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/value">
+      <obj_property name="ElementShortName">value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/value_we">
+      <obj_property name="ElementShortName">value_we</obj_property>
+      <obj_property name="ObjectShortName">value_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/value_r">
+      <obj_property name="ElementShortName">value_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/is_simulation">
+      <obj_property name="ElementShortName">is_simulation[31:0]</obj_property>
+      <obj_property name="ObjectShortName">is_simulation[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/X_WIDTH">
+      <obj_property name="ElementShortName">X_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/Y_WIDTH">
+      <obj_property name="ElementShortName">Y_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/CLK_MHZ">
+      <obj_property name="ElementShortName">CLK_MHZ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_MHZ[31:0]</obj_property>
+   </wvobject>
+</wave_config>

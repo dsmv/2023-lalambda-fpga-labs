@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="327.014900 us"></ZoomStartTime>
+      <ZoomEndTime time="1,128.014901 us"></ZoomEndTime>
+      <Cursor1Time time="808.014900 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wave_markers>
+      <marker label="" time="799144500" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/cks_mode">
+      <obj_property name="ElementShortName">cks_mode</obj_property>
+      <obj_property name="ObjectShortName">cks_mode</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/clkp">
+      <obj_property name="ElementShortName">clkp</obj_property>
+      <obj_property name="ObjectShortName">clkp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/ld_wdata">
+      <obj_property name="ElementShortName">ld_wdata</obj_property>
+      <obj_property name="ObjectShortName">ld_wdata</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/s_reset">
+      <obj_property name="ElementShortName">s_reset</obj_property>
+      <obj_property name="ObjectShortName">s_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/tx_sync">
+      <obj_property name="ElementShortName">tx_sync</obj_property>
+      <obj_property name="ObjectShortName">tx_sync</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/XMIT/tx_wdata">
+      <obj_property name="ElementShortName">tx_wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/auto_trig">
+      <obj_property name="ElementShortName">auto_trig</obj_property>
+      <obj_property name="ObjectShortName">auto_trig</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/bitclk_pls">
+      <obj_property name="ElementShortName">bitclk_pls</obj_property>
+      <obj_property name="ObjectShortName">bitclk_pls</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/bufr_done">
+      <obj_property name="ElementShortName">bufr_done</obj_property>
+      <obj_property name="ObjectShortName">bufr_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/bufr_empty">
+      <obj_property name="ElementShortName">bufr_empty</obj_property>
+      <obj_property name="ObjectShortName">bufr_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/divide_pls">
+      <obj_property name="ElementShortName">divide_pls</obj_property>
+      <obj_property name="ObjectShortName">divide_pls</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/lastbit">
+      <obj_property name="ElementShortName">lastbit</obj_property>
+      <obj_property name="ObjectShortName">lastbit</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/ld_bufr">
+      <obj_property name="ElementShortName">ld_bufr</obj_property>
+      <obj_property name="ObjectShortName">ld_bufr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/ld_shft">
+      <obj_property name="ElementShortName">ld_shft</obj_property>
+      <obj_property name="ObjectShortName">ld_shft</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/ser_txd">
+      <obj_property name="ElementShortName">ser_txd</obj_property>
+      <obj_property name="ObjectShortName">ser_txd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/termchar">
+      <obj_property name="ElementShortName">termchar</obj_property>
+      <obj_property name="ObjectShortName">termchar</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/tx_run">
+      <obj_property name="ElementShortName">tx_run</obj_property>
+      <obj_property name="ObjectShortName">tx_run</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/XMIT/bufr_rev">
+      <obj_property name="ElementShortName">bufr_rev[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bufr_rev[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/bitclk_reg">
+      <obj_property name="ElementShortName">bitclk_reg</obj_property>
+      <obj_property name="ObjectShortName">bitclk_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/bufr_full">
+      <obj_property name="ElementShortName">bufr_full</obj_property>
+      <obj_property name="ObjectShortName">bufr_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/ending_reg">
+      <obj_property name="ElementShortName">ending_reg</obj_property>
+      <obj_property name="ObjectShortName">ending_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/output_reg">
+      <obj_property name="ElementShortName">output_reg</obj_property>
+      <obj_property name="ObjectShortName">output_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/running_reg">
+      <obj_property name="ElementShortName">running_reg</obj_property>
+      <obj_property name="ObjectShortName">running_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/serial/XMIT/strt_reg">
+      <obj_property name="ElementShortName">strt_reg</obj_property>
+      <obj_property name="ObjectShortName">strt_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/XMIT/divider_nxt">
+      <obj_property name="ElementShortName">divider_nxt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">divider_nxt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/XMIT/divider_reg">
+      <obj_property name="ElementShortName">divider_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">divider_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/XMIT/bufr_reg">
+      <obj_property name="ElementShortName">bufr_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bufr_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/XMIT/shft_nxt">
+      <obj_property name="ElementShortName">shft_nxt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shft_nxt[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/serial/XMIT/shft_reg">
+      <obj_property name="ElementShortName">shft_reg[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shft_reg[9:0]</obj_property>
+   </wvobject>
+</wave_config>

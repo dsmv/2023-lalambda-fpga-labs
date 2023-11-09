@@ -95,6 +95,8 @@ set_location_assignment PIN_46 -to vgaext_r[3]
 set_location_assignment PIN_49 -to vgaext_vsync
 set_location_assignment PIN_50 -to vgaext_hsync
 
+set_location_assignment PIN_114 -to uart_txd
+set_location_assignment PIN_115 -to uart_rxd
 
 
 set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Lite Edition"

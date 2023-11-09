@@ -4,4 +4,5 @@ src/text_rom.sv
 src/video_memory.sv
 src/inmp441_mic_i2s_receiver.sv
 src/osc_mic.sv
+src/uart_mic.sv
 

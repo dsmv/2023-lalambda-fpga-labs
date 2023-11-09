@@ -27,7 +27,10 @@ module top_board
     output  wire        vgaext_hsync,
     output  wire        vgaext_vsync,
 
-    inout   wire [13:0]     gpio
+    inout   wire [13:0]     gpio,
+
+    input   wire        uart_rxd,
+    output  wire        uart_txd    
 
 );
 
@@ -102,7 +105,10 @@ top top
     .vgaext_b       (       vgaext_b        ),
     .vgaext_hsync   (       vgaext_hsync    ),
     .vgaext_vsync   (       vgaext_vsync    ),
-    .gpio           (       gpio            )
+    .gpio           (       gpio            ),
+
+    .uart_rxd       (       uart_rxd        ),
+    .uart_txd       (       uart_txd        )
 );
 
 assign key_sw_p     = ~ key_sw_z;

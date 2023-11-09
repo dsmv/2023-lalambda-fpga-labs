@@ -30,7 +30,10 @@ module top
     output  wire            vgaext_hsync,
     output  wire            vgaext_vsync,
 
-    inout   wire [13:0]     gpio
+    inout   wire [13:0]     gpio,
+
+    input   wire        uart_rxd,
+    output  wire        uart_txd    
     
 ); 
 
@@ -44,6 +47,22 @@ logic   [3:0]                   osc_vga_b;
 logic   [3:0]                   osc_state;
 
 
+logic         cks_mode;                                  /* sync mode                    */
+logic         clkp;                                      /* main peripheral clock        */
+logic         ld_wdata;                                  /* write tx data register       */
+logic         rd_rdata;                                  /* read rx data register        */
+logic         s_reset;                                   /* synchronous reset            */
+//logic         ser_rxd;                                   /* receive data input           */
+logic   [7:0] tx_wdata;                                  /* write data bus               */
+logic  [11:0] div_rate;                                  /* serial baud rate divider     */
+
+logic        bufr_done;                                 /* serial tx done sending       */
+logic        bufr_empty;                                /* serial tx buffer empty       */
+logic        bufr_full;                                 /* serial rx buffer full        */
+logic        bufr_ovr;                                  /* serial rx buffer overrun     */
+logic        ser_clk;                                   /* serial clk output (cks)      */
+//logic        ser_txd;                                   /* transmit data output         */
+logic  [7:0] rx_rdata;                                  /* receive data buffer          */
 
 always @(posedge clk) begin
     rstp <= #1 reset_p | key_sw_p[0];
@@ -299,6 +318,64 @@ assign display_number[15:4] = value_r[15:4];
 always_ff @(posedge clk)
     if( ~key_sw_p[1]) value_r = value;
 
+
+assign div_rate = 12'd35;
+assign cks_mode = 0;
+
+serial_top  serial 
+(
+    .cks_mode       (   cks_mode    ),
+    .clkp           (   clk         ),
+    .ld_wdata       (   ld_wdata    ),
+    .rd_rdata       (   rd_rdata    ),
+    .s_reset        (   rstp        ),
+    .ser_rxd        (   uart_rxd     ),
+    .tx_wdata       (   tx_wdata    ),
+    .div_rate       (   div_rate    ),
+    .bufr_done      (   bufr_done   ),
+    .bufr_empty     (   bufr_empty  ),
+    .bufr_full      (   bufr_full   ),
+    .bufr_ovr       (   bufr_ovr    ),
+    .ser_clk        (   ser_clk     ),
+    .ser_txd        (   uart_txd     ),
+    .rx_rdata       (   rx_rdata    )
+);
+
+logic [23:0]     threshold_low;
+logic [23:0]     threshold_high;
+
+// assign threshold_low    = -24'd100;
+// assign threshold_high   = 24'd100;
+
+assign threshold_low    = 24'd100;
+assign threshold_high   = 24'd200;
+
+uart_mic
+#(
+    .is_simulation      (   is_simulation   )
+)
+uart_mic
+(
+  
+    .clk                    (   clk         ),
+    .reset_p                (   reset_p     ),
+
+    .data                   (   value_24    ),
+    .data_we                (   value_we    ),
+
+    .threshold_low          (   threshold_low   ),
+    .threshold_high         (   threshold_high  ),
+
+    .uart_empty             (   bufr_empty  ),
+    .uart_full              (   bufr_full   ),
+    .uart_tx_data_we        (   ld_wdata    ),
+    .uart_tx_data           (   tx_wdata    ),
+    .uart_done              (   bufr_done   )
+
+);
+
 endmodule
+
+
 
 `default_nettype wire
