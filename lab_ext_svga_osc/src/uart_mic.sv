@@ -171,13 +171,16 @@ always_ff @(posedge clk) begin
         
 
         12: begin
+            fifo_rd <= #1 0;
             uart_tx_data <= #1 fifo_data_r[7:0];
-            if( uart_empty )
+            if( uart_empty ) begin
+                uart_tx_data_we <= #1 1;
                 stp <= #1 13;
+            end
         end
 
         13: begin
-            uart_tx_data_we <= #1 1;
+            uart_tx_data_we <= #1 0;
             stp <= #1 14;
             rd_cnt <= #1 rd_cnt + 1;
         end
@@ -185,33 +188,37 @@ always_ff @(posedge clk) begin
         14: begin
             uart_tx_data_we <= #1 0;
             uart_tx_data <= #1 fifo_data_r[15:8];
-            if( uart_empty )
+            if( uart_empty ) begin
+                uart_tx_data_we <= #1 1;
                 stp <= #1 15;
+            end
         end
 
         15: begin
-            uart_tx_data_we <= #1 1;
+            uart_tx_data_we <= #1 0;
             stp <= #1 16;
         end
         
         16: begin
             uart_tx_data_we <= #1 0;
             uart_tx_data <= #1 fifo_data_r[23:16];
-            if( uart_empty )
+            if( uart_empty ) begin
+                uart_tx_data_we <= #1 1;
                 stp <= #1 17;
+            end
         end
 
         17: begin
-            uart_tx_data_we <= #1 1;
+            uart_tx_data_we <= #1 0;
             stp <= #1 18;
-            fifo_rd <= #1 1;
+            
         end
 
         18: begin
             uart_tx_data_we <= #1 0;
             fifo_rd <= #1 0;
             if( ~rd_cnt[11] && ~fifo_empty )
-                stp <= #1 12;
+                stp <= #1 20;
             
             if( rd_cnt[11] )
                 stp <= #1 19;
@@ -225,6 +232,17 @@ always_ff @(posedge clk) begin
             if( uart_done )
                 stp <= #1 0;
         end
+
+        20: begin
+            fifo_rd <= #1 1;
+            stp <= #1 21;
+        end
+
+        21: begin
+            fifo_rd <= #1 0;
+            stp <= #1 12;
+        end
+
     endcase
 
     if( rstp )

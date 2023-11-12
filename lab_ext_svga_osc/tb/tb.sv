@@ -5,10 +5,10 @@
 module tb
 ();
   
-initial begin
-  $dumpfile("dump.vcd");
-  $dumpvars(5);
-end
+// initial begin
+//   $dumpfile("dump.vcd");
+//   $dumpvars(5);
+// end
   
 //   string	test_name[3:0]=
 //   {

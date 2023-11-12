@@ -10,15 +10,19 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
-      <ZoomEndTime time="250.000070001 ms"></ZoomEndTime>
-      <Cursor1Time time="1.003510000 ms"></Cursor1Time>
+      <ZoomStartTime time="16,701.381096 us"></ZoomStartTime>
+      <ZoomEndTime time="17,095.881097 us"></ZoomEndTime>
+      <Cursor1Time time="16,767.131096 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="312"></NameColumnWidth>
-      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="23" />
+   <wave_markers>
+      <marker label="" time="28772104900" />
+      <marker label="" time="18813294500" />
+   </wave_markers>
    <wvobject type="logic" fp_name="/tb/sim_inn441/sck">
       <obj_property name="ElementShortName">sck</obj_property>
       <obj_property name="ObjectShortName">sck</obj_property>

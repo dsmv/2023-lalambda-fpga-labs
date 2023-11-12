@@ -272,17 +272,31 @@ wire [23:0] value_24;
 wire [15:0] value = value_24 [23:8];
 logic       value_we;
 
-inmp441_mic_i2s_receiver i_microphone
+// inmp441_mic_i2s_receiver i_microphone
+// (
+//     .clk   ( clk       ),
+//     .reset ( rstp      ),
+//     .lr    ( gpio  [5] ),
+//     .ws    ( gpio  [3] ),
+//     .sck   ( gpio  [1] ),
+//     .sd    ( gpio  [0] ),
+//     .value      ( value_24  ),
+//     .value_we   ( value_we  )
+// );
+
+inmp441_mic_spi_receiver_65m  i_microphone
 (
-    .clk   ( clk       ),
-    .reset ( rstp      ),
-    .lr    ( gpio  [5] ),
-    .ws    ( gpio  [3] ),
-    .sck   ( gpio  [1] ),
-    .sd    ( gpio  [0] ),
-    .value      ( value_24  ),
-    .value_we   ( value_we  )
+    .clk    (   clk     ),
+    .reset  (   rstp    ),
+    .cs     (   gpio  [3]   ),
+    .sck    (   gpio  [1]   ),
+    .sdo    (   gpio  [0]   ),
+    .value  (   value_24    ),
+    .value_we   ( value_we  )    
+
 );
+
+assign gpio  [5] = 0;
 
 osc_mic 
 #(
@@ -297,7 +311,7 @@ osc_mic
     .data           (   value       ),
     .data_we        (   value_we    ),
 
-    .threshold      (   16'h0100    ),
+    .threshold      (   16'h0010    ),
 
 
     .x              (   pixel_x     ),
@@ -344,11 +358,11 @@ serial_top  serial
 logic [23:0]     threshold_low;
 logic [23:0]     threshold_high;
 
-// assign threshold_low    = -24'd100;
-// assign threshold_high   = 24'd100;
+assign threshold_low    = -24'd1000;
+assign threshold_high   = 24'd1000;
 
-assign threshold_low    = 24'd100;
-assign threshold_high   = 24'd200;
+// assign threshold_low    = 24'd100;
+// assign threshold_high   = 24'd200;
 
 uart_mic
 #(
@@ -373,6 +387,9 @@ uart_mic
     .uart_done              (   bufr_done   )
 
 );
+
+
+assign led_p[0] = uart_txd;
 
 endmodule
 

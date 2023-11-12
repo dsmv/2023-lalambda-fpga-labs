@@ -10,13 +10,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
-      <ZoomEndTime time="7.381367301 ms"></ZoomEndTime>
-      <Cursor1Time time="3.713995900 ms"></Cursor1Time>
+      <ZoomStartTime time="70.533466850 ms"></ZoomStartTime>
+      <ZoomEndTime time="112.350403551 ms"></ZoomEndTime>
+      <Cursor1Time time="105.380914100 ms"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="312"></NameColumnWidth>
-      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="28" />
    <wvobject type="logic" fp_name="/tb/uut/uart_mic/clk">
@@ -64,13 +64,13 @@
       <obj_property name="ElementShortName">uart_tx_data_we</obj_property>
       <obj_property name="ObjectShortName">uart_tx_data_we</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/uut/uart_mic/uart_tx_data">
-      <obj_property name="ElementShortName">uart_tx_data</obj_property>
-      <obj_property name="ObjectShortName">uart_tx_data</obj_property>
+   <wvobject type="array" fp_name="/tb/uut/uart_mic/uart_tx_data">
+      <obj_property name="ElementShortName">uart_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_data[7:0]</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb/uut/uart_mic/stp">
-      <obj_property name="ElementShortName">stp[3:0]</obj_property>
-      <obj_property name="ObjectShortName">stp[3:0]</obj_property>
+      <obj_property name="ElementShortName">stp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stp[4:0]</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb/uut/uart_mic/index_wr">
       <obj_property name="ElementShortName">index_wr[11:0]</obj_property>
@@ -107,10 +107,28 @@
    <wvobject type="array" fp_name="/tb/uut/uart_mic/fifo_data_w">
       <obj_property name="ElementShortName">fifo_data_w[23:0]</obj_property>
       <obj_property name="ObjectShortName">fifo_data_w[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-30000.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">30000.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb/uut/uart_mic/fifo_data_r">
       <obj_property name="ElementShortName">fifo_data_r[23:0]</obj_property>
       <obj_property name="ObjectShortName">fifo_data_r[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-30000.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">30000.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/tb/uut/uart_mic/fifo_empty">
       <obj_property name="ElementShortName">fifo_empty</obj_property>

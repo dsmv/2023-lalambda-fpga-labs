@@ -10,15 +10,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0 ps"></ZoomStartTime>
-      <ZoomEndTime time="8 ps"></ZoomEndTime>
-      <Cursor1Time time="0 ps"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="13.312286 us"></ZoomEndTime>
+      <Cursor1Time time="4,573.345700 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="312"></NameColumnWidth>
-      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="12" />
+   <WVObjectSize size="14" />
    <wvobject type="logic" fp_name="/tb/uut/i_microphone/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -27,21 +27,17 @@
       <obj_property name="ElementShortName">reset</obj_property>
       <obj_property name="ObjectShortName">reset</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/uut/i_microphone/lr">
-      <obj_property name="ElementShortName">lr</obj_property>
-      <obj_property name="ObjectShortName">lr</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/uut/i_microphone/ws">
-      <obj_property name="ElementShortName">ws</obj_property>
-      <obj_property name="ObjectShortName">ws</obj_property>
+   <wvobject type="logic" fp_name="/tb/uut/i_microphone/cs">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/tb/uut/i_microphone/sck">
       <obj_property name="ElementShortName">sck</obj_property>
       <obj_property name="ObjectShortName">sck</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/uut/i_microphone/sd">
-      <obj_property name="ElementShortName">sd</obj_property>
-      <obj_property name="ObjectShortName">sd</obj_property>
+   <wvobject type="logic" fp_name="/tb/uut/i_microphone/sdo">
+      <obj_property name="ElementShortName">sdo</obj_property>
+      <obj_property name="ObjectShortName">sdo</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb/uut/i_microphone/value">
       <obj_property name="ElementShortName">value[23:0]</obj_property>
@@ -52,8 +48,24 @@
       <obj_property name="ObjectShortName">value_we</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb/uut/i_microphone/cnt">
-      <obj_property name="ElementShortName">cnt[8:0]</obj_property>
-      <obj_property name="ObjectShortName">cnt[8:0]</obj_property>
+      <obj_property name="ElementShortName">cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/uut/i_microphone/shift">
+      <obj_property name="ElementShortName">shift[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shift[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/i_microphone/sck_q">
+      <obj_property name="ElementShortName">sck_q</obj_property>
+      <obj_property name="ObjectShortName">sck_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/i_microphone/cs_t">
+      <obj_property name="ElementShortName">cs_t</obj_property>
+      <obj_property name="ObjectShortName">cs_t</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/uut/i_microphone/cs_o">
+      <obj_property name="ElementShortName">cs_o</obj_property>
+      <obj_property name="ObjectShortName">cs_o</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/tb/uut/i_microphone/sample_bit">
       <obj_property name="ElementShortName">sample_bit</obj_property>
@@ -62,9 +74,5 @@
    <wvobject type="logic" fp_name="/tb/uut/i_microphone/value_done">
       <obj_property name="ElementShortName">value_done</obj_property>
       <obj_property name="ObjectShortName">value_done</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/tb/uut/i_microphone/shift">
-      <obj_property name="ElementShortName">shift[23:0]</obj_property>
-      <obj_property name="ObjectShortName">shift[23:0]</obj_property>
    </wvobject>
 </wave_config>
